@@ -1,5 +1,6 @@
 <?php  
-session_start(); 
+session_start();
+echo "hello";
 if(isset($_SESSION['admin_sid']) || isset($_SESSION['customer_sid']))
 {
 	header("location:index.php");
